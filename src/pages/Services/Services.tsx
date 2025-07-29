@@ -12,7 +12,7 @@ function Services() {
   return (
     <Container display="flex" flexDirection="column" gap="20vh" backgroundColor="white" height="fit-content" width="75vw" padding="20vh 0">
       <ItemBox reverse={false} img={ImageItem1} title="Persianas" msg="
-      Descubra a linha completa de persianas que a Persianarte oferece para o seu ambiente. Trabalhamos com diversos modelos, materiais e cores, garantindo qualidade design e funcionalidade ideais para a sua necessidade.
+      Conheça a linha completa de persianas que a Persianarte oferece para o seu ambiente. Trabalhamos com diversos modelos, materiais e cores, garantindo qualidade design e funcionalidade ideais para a sua necessidade.
 Nossos serviços incluem instalação profissional e descomplicada, além de manutenção para garantir a longevidade do produto. Oferecemos também limpeza especializada, cuidando de suas persianas com a atenção que elas merecem. Conte com a Persianarte para beleza, conforto e praticidade." />
 
       <ItemBox reverse={true} img={ImageItem2} title="Cortinas" msg="
