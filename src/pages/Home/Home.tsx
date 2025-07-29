@@ -66,7 +66,15 @@ function Home() {
           <Image src="https://malique.com.br/curitiba/wp-content/uploads/sites/3/2023/03/Persiana-Vertical-Translucido-malique.cwb_.jpeg" display={["none", "", "", "block"]} width="47%" />
           <Flex flexDirection="column" alignItems="center" width={["100%", "", "", "40%"]} gap="4vh" padding="1rem 0rem">
             <Text  width="100%" textAlign={["center", "", "", "left"]} fontFamily='Ibarra Real Nova' fontWeight="700" fontSize="2.3rem" lineHeight="42px" color="#33323D"> Sobre Nos</Text>
-            <Text width={["90%","100%","100%","100%"]} textAlign="justify" fontFamily='Public Sans' fontWeight="400" fontSize="1rem" lineHeight="1.8rem" color="#33323D" opacity="0.8">Sou um desenvolvedor front-end júnior procurando por uma oportunidade. Eu foco em escrever HTML acessível, usando práticas modernas de CSS e escrevendo um JavaScript limpo. Quando estou escrevendo código JavaScript, na maioria das vezes estou usando React, mas posso me adapta para qualquer ferramenta se necessário. Moro em Londres, UK, mas também seria feliz trabalhando remotamente e tenho experiência em times remotos.</Text>
+            <Text width={["90%","100%","100%","100%"]} textAlign="justify" fontFamily='Public Sans' fontWeight="400" fontSize="1rem" lineHeight="1.8rem" color="#33323D" opacity="0.8">
+              Bem-vindo à Persianarte, sua referência em persianas, cortinas e soluções de decoração em Salvador e região!
+                <br />
+              Com mais de 21 anos de experiência no mercado, a Persianarte, sob a gestão de Ariel Bugarim da Silva, construiu uma sólida reputação de qualidade, confiança e excelência em atendimento. Desde a nossa fundação, temos o compromisso de transformar ambientes, oferecendo produtos e serviços que unem beleza, funcionalidade e durabilidade.
+                <br />
+              Na Persianarte, cada projeto é tratado com atenção aos detalhes e um profundo conhecimento técnico. Nosso objetivo é proporcionar a você soluções personalizadas que superem suas expectativas, garantindo ambientes mais confortáveis, elegantes e funcionais.
+                <br />
+              Venha nos conhecer e descubra por que a Persianarte é a escolha certa para o seu próximo projeto de decoração!   
+            </Text>
             <ButtonsTemplate msg="Ver serviços" OnClick={() => RedirectTo(1, "services")} />
           </Flex>
         </Flex>
